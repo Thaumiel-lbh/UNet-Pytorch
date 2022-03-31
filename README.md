@@ -5,6 +5,8 @@ The UNet-Pytorch that received the most stars on GitHub: https://github.com/mile
 ### Dataset
 This code uses PASCAL_VOC_2012 dataset for training.  
 When you use your own dataset, please refer to the PASCAL_VOC2012 dataset structure as follow:  
+  
+  
 your_datasets_dir  
 　　　　|  
 　　　　|  
@@ -20,6 +22,9 @@ your_datasets_dir
 　　　　　　　　　　　　　　　　　|  
 　　　　　　　　　　　　　　　　　|  
 　　　　　　　　　　　　　　　　　|--Segmentation  
+                   
+                   
+These folders and their subfiles are necessary.
 ### Training
 You can use the following commands for training  
 `python train.py --data_root your_datasets_dir/`
