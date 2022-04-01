@@ -40,7 +40,7 @@ python -m visdom.server -port 8097
 python train.py --data_root your_datasets_dir/ --enable_vis --vis_port 8097
 ```  
 #### 4.3 You can see your training process at http://localhost:8097.  
-### Continue_traing
+### 5 Continue_traing
 ```bash  
 python train.py --data_root your_datasets_dir/ --ckpt ./checkpoints/your_ckpt.pth --continue_training
 ```  
