@@ -4,7 +4,7 @@ When I use the UNet-Pytorch that received the most stars on GitHub: https://gith
 ## The original paper  
 ***U-Net: Convolutional Networks for Biomedical Image Segmentation***   
 https://arxiv.org/abs/1505.04597
-## How to Start Traing
+## Train
 ### 1 Prepare Dataset
 This code uses PASCAL_VOC_2012 dataset for training.  
 When you use your own dataset, please refer to the PASCAL_VOC2012 dataset structure as follows:  
@@ -40,3 +40,12 @@ python -m visdom.server -port 8097
 python train.py --data_root your_datasets_dir/ --enable_vis --vis_port 8097
 ```  
 #### 4.3 You can see your training process at http://localhost:8097.  
+### Continue_traing
+```bash  
+python train.py --data_root your_datasets_dir/ --ckpt ./checkpoints/your_ckpt.pth --continue_training
+```  
+## Predict  
+```bash  
+python predict.py --input your_img_dir --output your_output_dir --ckpt ./checkpoints/your_ckpt.pth
+heckpoints/best.pth
+```
