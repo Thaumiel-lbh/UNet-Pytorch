@@ -47,5 +47,4 @@ python train.py --data_root your_datasets_dir/ --ckpt ./checkpoints/your_ckpt.pt
 ## Predict  
 ```bash  
 python predict.py --input your_img_dir --output your_output_dir --ckpt ./checkpoints/your_ckpt.pth
-heckpoints/best.pth
 ```
