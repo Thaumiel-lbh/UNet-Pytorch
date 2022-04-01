@@ -1,6 +1,6 @@
-# UNet-pytorch
+# UNet-Pytorch-Windows
 ## UNet for pytorch1.11.0  
-The UNet-Pytorch that received the most stars on GitHub: https://github.com/milesial/Pytorch-UNet encountered various bugs in The new version pytorch. So I rewrote UNet using PyTorch by referring to https://github.com/milesial/Pytorch-UNet.
+When I use the UNet-Pytorch that received the most stars on GitHub: https://github.com/milesial/Pytorch-UNet, I encountered various bugs with pytorch 1.11.0 in windows10. So I rewrote UNet using PyTorch by referring to https://github.com/milesial/Pytorch-UNet. Of course, you can also run this code in Ubuntu.
 ## How to Start Traing
 ### 1 Prepare Dataset
 This code uses PASCAL_VOC_2012 dataset for training.  
