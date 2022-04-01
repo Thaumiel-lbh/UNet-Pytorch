@@ -1,6 +1,6 @@
-# UNet-Pytorch-Windows
-## UNet for pytorch1.11.0  
-When I use the UNet-Pytorch that received the most stars on GitHub: https://github.com/milesial/Pytorch-UNet, I encountered various bugs with pytorch 1.11.0 in windows10. So I rewrote UNet using PyTorch by referring to https://github.com/milesial/Pytorch-UNet. Of course, you can also run this code in Ubuntu.
+# UNet-Pytorch
+## UNet for pytorch1.11.0 and cuda11.3 
+When I use the UNet-Pytorch that received the most stars on GitHub: https://github.com/milesial/Pytorch-UNet, I encountered various bugs with pytorch 1.11.0 in windows and Ubuntu. So I rewrote UNet using PyTorch by referring to https://github.com/milesial/Pytorch-UNet.
 ## The original paper  
 ***U-Net: Convolutional Networks for Biomedical Image Segmentation***   
 https://arxiv.org/abs/1505.04597
