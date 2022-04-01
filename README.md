@@ -25,7 +25,7 @@ These folders and their subfiles are necessary.
 pip install -r requirements.txt
 ```  
 ### 3 Quick Training
-You can use the following commands for training  
+You can use the following commands for training.  
 ```bash
 python train.py --data_root your_datasets_dir/
 ```
@@ -39,4 +39,4 @@ python -m visdom.server -port 8097
 ```bash
 python train.py --data_root your_datasets_dir/ --enable_vis --vis_port 8097
 ```  
-#### 4.3 You can see your training process at http://localhost:8097  
+#### 4.3 You can see your training process at http://localhost:8097.  
